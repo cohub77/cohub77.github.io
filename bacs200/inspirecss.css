@@ -1,5 +1,12 @@
 .tab { text-indent:40px }
+h1{color:rgb(236, 228, 228);}
+h2{color:rgb(236, 228, 228);}
 p {
     font-size: 20px;
     margin-right: 500px;
+    color:rgb(236, 228, 228);
+  }
+a{color:blue }
+  body {
+    background-color: rgb(39, 42, 43);
   }
