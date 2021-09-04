@@ -5,10 +5,23 @@ p {
     font-size: 20px;
     margin-right: 500px;
     color:rgb(236, 228, 228);
+    line-height: 1.6;
+
   }
 a{color:rgb(72, 72, 255) }
 ul{color:rgb(236, 228, 228);}
 
   body {
     background-color: rgb(39, 42, 43);
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
