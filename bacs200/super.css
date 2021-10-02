@@ -1,0 +1,42 @@
+.tab { text-indent:40px }
+h1,h2,h3{color:rgb(236, 228, 228);}
+table,th,td {
+  color:rgb(236, 228, 228);
+  border: solid rgb(236, 228, 228);
+  border-width: 1px;
+}
+
+p {
+    font-size: 20px;
+    color:rgb(237, 228, 228);
+    line-height: 1.6;
+
+  }
+a{color:rgb(72, 72, 255) }
+ul{color:rgb(236, 228, 228);}
+
+  body {
+    background-color: rgb(39, 42, 43);
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .p2{
+    margin-left: 10px;
+    font-size: 20px;
+    color:rgb(236, 228, 228);
+    line-height: 1.6;
+  }
+  .center2 {
+    margin: auto;
+    width: 10%;
+    padding: 20px;
+  }
