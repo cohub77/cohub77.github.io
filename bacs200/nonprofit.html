@@ -18,18 +18,19 @@
     <meta name="theme-color" content="#ffffff">
     <title>Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="nonprofit.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <main>
-<body class="bg-dark">
+<body class="bg-light">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Blog</a>
+          <a class="navbar-brand" href="#">
+            <img src="/images/caresmall.jpg" alt="" width="50" height="44" class="d-inline-block align-text-top">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,31 +39,114 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Contact</a>
+              </li>
 
                 </ul>
-
+      </div>
           </div>
         </div>
       </nav>
-    <header class="masthead bg-dark"  style="">
-        <div class="container text-white bg-dark position-relative px-4 px-lg-5">
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center w-100 h-100">
+        <img src="images/carecar.jpg" alt="Los Angeles" class=" imgug">
+      </div>
+    </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center w-100 h-100">
+
+        <img src="images/care2.jpg" alt="Chicago" class="imgug">
+      </div>
+    </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center w-100 h-100">
+        <img src="images/care3.jpg" alt="New York" class="imgug">
+      </div>
+    </div>
+
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+      </div>
+    <header class="masthead bg-light"  style="">
+        <div class="container text-dark bg-light position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="post-heading text-center">
-                        <h1>The Ever Growing Problem of Wealth Inequality in America</h1>
-                        <p class="meta text-center">
-                            By Conner Hubbell
-                            on October 15, 2021
-                        </p>
-                    </div>
+                        <h1>We believe no one should go hungry.</h1>
                 </div>
             </div>
         </div>
     </header>
-    <div class="text-center">
-        <img src="images/welth2.png" class="rounded mx-auto d-block" alt="uh" style = "width: 690px; height: 320px; padding: 20px">
-      </div>
-    <article class="mb-4 text-white">
+    <div class="text-center container">
+        <div class="row">
+    <div class="card bg-light text-dark m-5 "style = "width: 1400px; height: 250px;">
+        <div class="card-header bg-primary text-light text-center">
+            <h2>Our Mission</h2>
+        </div>
+
+        <div class="card-body p-5">
+            <p>At Care and Share Food Bank, our core purpose is to bridge the gap between hunger and abundance. Our mission is to provide food, partnering opportunities, and education to fight hunger and food insecurity in Southern Colorado communities. With your help, the future of Southern Colorado will be hunger-free.</p>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="text-center container">
+        <div class="row">
+            <div class="col-sm">
+        <div class="card" style="width: 410px; height: 450px;">
+            <img src="images/cookie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gather</h5>
+              <p class="card-text">Gather and sort food from multiple sources.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm">
+            <div class="card" style="width: 410px; height: 450px;">
+                <img src="images/sort2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sort</h5>
+                  <p class="card-text">Our dedicated staff and volunteers sort and organize the food we receive.
+
+                </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 410px; height: 450px">
+                    <img src="images/jose.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Distribute</h5>
+                      <p class="card-text">Distribute to our network of 282 partners in 31 counties across Southern Colorado</p>
+                    </div>
+                    </div>
+                </div>
+
+          </div>
+   <!---- <article class="mb-4 text-white">
         <div class="container px-4 px-lg-1">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
@@ -83,7 +167,7 @@
             </div>
         </div>
     </div>
-    </article>
+    </article>-->
 </body>
 </main>
 <footer>
