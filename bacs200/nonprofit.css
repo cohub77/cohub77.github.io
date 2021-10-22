@@ -27,10 +27,12 @@ p{
     }
 .carousel-control-prev-icon {
     position: absolute;
-    left: 600px;
+    left: 750px;
+    bottom: 20px;
 }
 
 .carousel-control-next-icon {
     position: absolute;
-    right: 600px;
+    right: 750px;
+    bottom: 20px;
 }
