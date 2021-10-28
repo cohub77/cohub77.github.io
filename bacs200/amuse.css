@@ -21,8 +21,8 @@ ul{color:rgb(236, 228, 228);}
   }
   .center {
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .img {
     display: block;
@@ -41,3 +41,7 @@ ul{color:rgb(236, 228, 228);}
     width: 56%;
     padding: 20px;
   }
+  li{
+    display:table;
+    margin:0px auto 0px auto;
+}

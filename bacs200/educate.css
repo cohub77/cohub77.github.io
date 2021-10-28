@@ -21,8 +21,6 @@ ul{color:rgb(236, 228, 228);}
   }
   .center {
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
   }
   .img {
     display: block;
@@ -31,13 +29,15 @@ ul{color:rgb(236, 228, 228);}
     width: 40%;
   }
   .p2{
-    margin-left: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
     font-size: 20px;
     color:rgb(236, 228, 228);
     line-height: 1.6;
   }
   .center2 {
-    margin: auto;
-    width: 56%;
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;    width: 56%;
+    padding-left: 20px;
   }
