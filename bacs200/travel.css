@@ -1,0 +1,38 @@
+header{
+    padding:20px;
+  }
+  h1{
+      padding: 20px;
+  }
+  h{
+    padding: 20px;
+}
+  
+p{
+ font-size: 20px;
+ line-height: 1.5em;
+  }
+  .p2{
+      
+  }
+  .image{
+    height: 600px;
+    width: 1200px;
+    
+  }
+  .carousel-inner .item a img {
+
+    margin: auto;
+    
+    }
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 750px;
+    bottom: 20px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 750px;
+    bottom: 20px;
+}
